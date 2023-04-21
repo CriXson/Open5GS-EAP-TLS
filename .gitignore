@@ -6,5 +6,6 @@ subprojects/usrsctp
 
 webui/.next
 install
+build
 .github
 .vscode
