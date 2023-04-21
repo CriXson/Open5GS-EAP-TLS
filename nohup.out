@@ -1,0 +1,32 @@
+Open5GS daemon v2.5.6
+
+[32m12/07 09:04:46.477[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/home/julius/dev/5g-wiki/open5gs/install/etc/open5gs/nrf.yaml' (../lib/app/ogs-init.c:126)
+[32m12/07 09:04:46.477[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/home/julius/dev/5g-wiki/open5gs/install/var/log/open5gs/nrf.log' (../lib/app/ogs-init.c:129)
+[32m12/07 09:04:46.478[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:04:46.478[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [::1]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:04:46.478[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
+[32m12/07 09:04:59.758[0m: [[33mapp[0m] [1;32mINFO[0m: SIGINT received (../src/main.c:53)
+[32m12/07 09:04:59.758[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:226)
+[32m12/07 09:04:59.761[0m: [[33mapp[0m] [1;32mINFO[0m: NRF terminate...done (../src/nrf/app.c:39)
+Open5GS daemon v2.5.6
+
+[32m12/07 09:08:04.167[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/home/julius/dev/5g-wiki/open5gs/install/etc/open5gs/nrf.yaml' (../lib/app/ogs-init.c:126)
+[32m12/07 09:08:04.167[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/home/julius/dev/5g-wiki/open5gs/install/var/log/open5gs/nrf.log' (../lib/app/ogs-init.c:129)
+[32m12/07 09:08:04.169[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:08:04.169[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [::1]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:08:04.169[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
+[32m12/07 09:08:08.512[0m: [[33mapp[0m] [1;32mINFO[0m: SIGINT received (../src/main.c:53)
+[32m12/07 09:08:08.513[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:226)
+[32m12/07 09:08:08.516[0m: [[33mapp[0m] [1;32mINFO[0m: NRF terminate...done (../src/nrf/app.c:39)
+Open5GS daemon v2.5.6
+
+[32m12/07 09:08:44.647[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/home/julius/dev/5g-wiki/open5gs/install/etc/open5gs/nrf.yaml' (../lib/app/ogs-init.c:126)
+[32m12/07 09:08:44.647[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/home/julius/dev/5g-wiki/open5gs/install/var/log/open5gs/nrf.log' (../lib/app/ogs-init.c:129)
+[32m12/07 09:08:44.649[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:08:44.649[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [::1]:7777 (../lib/sbi/nghttp2-server.c:150)
+[32m12/07 09:08:44.649[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
+[32m12/07 09:08:44.656[0m: [[33mnrf[0m] [1;32mINFO[0m: [5e8c56b2-7606-41ed-8eea-67f2325f876c] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:190)
+[32m12/07 09:08:46.736[0m: [[33mapp[0m] [1;32mINFO[0m: SIGINT received (../src/main.c:53)
+[32m12/07 09:08:46.736[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:226)
+[32m12/07 09:08:46.738[0m: [[33mnrf[0m] [1;32mINFO[0m: [5e8c56b2-7606-41ed-8eea-67f2325f876c] NF de-registered (../src/nrf/nf-sm.c:205)
+[32m12/07 09:08:46.739[0m: [[33mapp[0m] [1;32mINFO[0m: NRF terminate...done (../src/nrf/app.c:39)

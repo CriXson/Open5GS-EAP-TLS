@@ -1,0 +1,6 @@
+[options]
+prefix = /home/julius/dev/5g-wiki/open5gs/install
+backend = ninja
+
+[properties]
+

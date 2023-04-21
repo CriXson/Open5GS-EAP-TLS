@@ -1,0 +1,3150 @@
+Build started at 2023-03-30T16:23:06.279125
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/home/julius/dev/5g-wiki/open5gs/install -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/julius/dev/5g-wiki/open5gs
+Build dir: /home/julius/dev/5g-wiki/open5gs/build
+Build type: native build
+Project name: open5gs
+Project version: 2.5.6
+C compiler for the build machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc ld.bfd 2.34
+C++ compiler for the build machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+C compiler for the host machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc ld.bfd 2.34
+C++ compiler for the host machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program git found: YES (/usr/bin/git)
+Program python3 found: YES (/usr/bin/python3)
+Program cppcheck found: NO
+Program run-clang-tidy found: NO
+Program clang-tidy found: NO
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2parjw01
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2parjw01/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2parjw01/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wextra: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzcul53gy
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzcul53gy/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzcul53gy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wlogical-op 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wlogical-op: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgp5bw2yk
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgp5bw2yk/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgp5bw2yk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpv5ch4r4k
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpv5ch4r4k/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpv5ch4r4k/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=pointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk0ynhbc1
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk0ynhbc1/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk0ynhbc1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=init-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=init-self: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qou56b
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qou56b/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qou56b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wfloat-equal 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wfloat-equal: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpqzftd7aa
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpqzftd7aa/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpqzftd7aa/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsuggest-attribute=noreturn 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsuggest-attribute=noreturn: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5o9f0n3a
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5o9f0n3a/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5o9f0n3a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpq0rm1g_z
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpq0rm1g_z/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpq0rm1g_z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-declarations: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1b9rmnei
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1b9rmnei/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1b9rmnei/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_ro8c843
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_ro8c843/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_ro8c843/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=return-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=return-type: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptghwu898
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptghwu898/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptghwu898/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=incompatible-pointer-types 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=incompatible-pointer-types: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflz30840
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflz30840/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflz30840/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=format=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=format=2: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxatrf03r
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxatrf03r/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxatrf03r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5shh_sx4
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5shh_sx4/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5shh_sx4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3_32bjw
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3_32bjw/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3_32bjw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=5 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-fallthrough=5: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpuqm3bx2h
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpuqm3bx2h/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpuqm3bx2h/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_c2iew6y
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_c2iew6y/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_c2iew6y/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing=3 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing=3: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnkjqm1r_
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnkjqm1r_/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnkjqm1r_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0_ybtco8
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0_ybtco8/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0_ybtco8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=overflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=overflow: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl2v4cab2
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl2v4cab2/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl2v4cab2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-count-overflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=shift-count-overflow: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8b4v8rh1
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8b4v8rh1/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8b4v8rh1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-overflow=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=shift-overflow=2: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphulh_ci0
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphulh_ci0/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphulh_ci0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdate-time 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdate-time: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5jo2x2ro
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5jo2x2ro/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5jo2x2ro/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpc949u4_x
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpc949u4_x/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpc949u4_x/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0pcqdjsa
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0pcqdjsa/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0pcqdjsa/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wduplicated-branches: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qva4r1
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qva4r1/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpk5qva4r1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmisleading-indentation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmisleading-indentation: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcsycfedm
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcsycfedm/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcsycfedm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl0wmrfp7
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl0wmrfp7/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl0wmrfp7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxw914iz0
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxw914iz0/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxw914iz0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -ffast-math 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -ffast-math: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7mgqr0rl
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7mgqr0rl/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7mgqr0rl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fdiagnostics-show-option 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fdiagnostics-show-option: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmplo_bzdic
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmplo_bzdic/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmplo_bzdic/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fstack-protector: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0rof8mua
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0rof8mua/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0rof8mua/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector-strong 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fstack-protector-strong: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbndglnm8
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbndglnm8/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbndglnm8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --param=ssp-buffer-size=4 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments --param=ssp-buffer-size=4: YES 
+meson.build:114: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Configuring sample.yaml using configuration
+Configuring 310014.yaml using configuration
+Configuring csfb.yaml using configuration
+Configuring volte.yaml using configuration
+Configuring vonr.yaml using configuration
+Configuring slice.yaml using configuration
+Configuring srslte.yaml using configuration
+Configuring non3gpp.yaml using configuration
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Configuring mme.yaml using configuration
+Configuring sgwc.yaml using configuration
+Configuring sgwu.yaml using configuration
+Configuring smf.yaml using configuration
+Configuring amf.yaml using configuration
+Configuring upf.yaml using configuration
+Configuring hss.yaml using configuration
+Configuring pcrf.yaml using configuration
+Configuring nrf.yaml using configuration
+Configuring scp.yaml using configuration
+Configuring ausf.yaml using configuration
+Configuring udm.yaml using configuration
+Configuring udr.yaml using configuration
+Configuring pcf.yaml using configuration
+Configuring nssf.yaml using configuration
+Configuring bsf.yaml using configuration
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Configuring mme.conf using configuration
+Configuring hss.conf using configuration
+Configuring smf.conf using configuration
+Configuring pcrf.conf using configuration
+Configuring cacert.pem using configuration
+Configuring mme.cert.pem using configuration
+Configuring mme.key.pem using configuration
+Configuring hss.cert.pem using configuration
+Configuring hss.key.pem using configuration
+Configuring smf.cert.pem using configuration
+Configuring smf.key.pem using configuration
+Configuring pcrf.cert.pem using configuration
+Configuring pcrf.key.pem using configuration
+Configuring open5gs-mmed.service using configuration
+Configuring open5gs-sgwcd.service using configuration
+Configuring open5gs-smfd.service using configuration
+Configuring open5gs-amfd.service using configuration
+Configuring open5gs-sgwud.service using configuration
+Configuring open5gs-upfd.service using configuration
+Configuring open5gs-hssd.service using configuration
+Configuring open5gs-pcrfd.service using configuration
+Configuring open5gs-nrfd.service using configuration
+Configuring open5gs-scpd.service using configuration
+Configuring open5gs-ausfd.service using configuration
+Configuring open5gs-udmd.service using configuration
+Configuring open5gs-pcfd.service using configuration
+Configuring open5gs-nssfd.service using configuration
+Configuring open5gs-bsfd.service using configuration
+Configuring open5gs-udrd.service using configuration
+Configuring 99-open5gs.netdev using configuration
+Configuring 99-open5gs.network using configuration
+Configuring open5gs using configuration
+Configuring open5gs.conf using configuration
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpurpffk_y/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("arpa/inet.h")
+          #error "Header 'arpa/inet.h' could not be found"
+         #endif
+        #else
+         #include <arpa/inet.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "arpa/inet.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp31ekqmpw/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("ctype.h")
+          #error "Header 'ctype.h' could not be found"
+         #endif
+        #else
+         #include <ctype.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "ctype.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp9c1vl20v/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("errno.h")
+          #error "Header 'errno.h' could not be found"
+         #endif
+        #else
+         #include <errno.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "errno.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbt3ne46e/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("execinfo.h")
+          #error "Header 'execinfo.h' could not be found"
+         #endif
+        #else
+         #include <execinfo.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "execinfo.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyil7s4kj/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("fcntl.h")
+          #error "Header 'fcntl.h' could not be found"
+         #endif
+        #else
+         #include <fcntl.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "fcntl.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5oqh80zx/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("ifaddrs.h")
+          #error "Header 'ifaddrs.h' could not be found"
+         #endif
+        #else
+         #include <ifaddrs.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "ifaddrs.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptmy02rx0/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netdb.h")
+          #error "Header 'netdb.h' could not be found"
+         #endif
+        #else
+         #include <netdb.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netdb.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpan4iydjt/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("pthread.h")
+          #error "Header 'pthread.h' could not be found"
+         #endif
+        #else
+         #include <pthread.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "pthread.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzrxkxtpl/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("signal.h")
+          #error "Header 'signal.h' could not be found"
+         #endif
+        #else
+         #include <signal.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "signal.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpueyiev2y/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdarg.h")
+          #error "Header 'stdarg.h' could not be found"
+         #endif
+        #else
+         #include <stdarg.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdarg.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgefy44bg/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stddef.h")
+          #error "Header 'stddef.h' could not be found"
+         #endif
+        #else
+         #include <stddef.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stddef.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfyyx8uuy/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdio.h")
+          #error "Header 'stdio.h' could not be found"
+         #endif
+        #else
+         #include <stdio.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdio.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu4etdqlw/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdint.h")
+          #error "Header 'stdint.h' could not be found"
+         #endif
+        #else
+         #include <stdint.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdint.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf96u0up3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdbool.h")
+          #error "Header 'stdbool.h' could not be found"
+         #endif
+        #else
+         #include <stdbool.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdbool.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpjzqstfok/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdlib.h")
+          #error "Header 'stdlib.h' could not be found"
+         #endif
+        #else
+         #include <stdlib.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdlib.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp6to7sv4v/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("string.h")
+          #error "Header 'string.h' could not be found"
+         #endif
+        #else
+         #include <string.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "string.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp857nivpp/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("strings.h")
+          #error "Header 'strings.h' could not be found"
+         #endif
+        #else
+         #include <strings.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "strings.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmbhm73od/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("time.h")
+          #error "Header 'time.h' could not be found"
+         #endif
+        #else
+         #include <time.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "time.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpj6y_hhgm/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/time.h")
+          #error "Header 'sys/time.h' could not be found"
+         #endif
+        #else
+         #include <sys/time.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/time.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp6ujwax8g/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("unistd.h")
+          #error "Header 'unistd.h' could not be found"
+         #endif
+        #else
+         #include <unistd.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "unistd.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpezm7v2bo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("net/if.h")
+          #error "Header 'net/if.h' could not be found"
+         #endif
+        #else
+         #include <net/if.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "net/if.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu7r2j4m_/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/in.h")
+          #error "Header 'netinet/in.h' could not be found"
+         #endif
+        #else
+         #include <netinet/in.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/in.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwsl6ujzb/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/in_systm.h")
+          #error "Header 'netinet/in_systm.h' could not be found"
+         #endif
+        #else
+         #include <netinet/in_systm.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/in_systm.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf05jptc5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/udp.h")
+          #error "Header 'netinet/udp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/udp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/udp.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7lz75687/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/tcp.h")
+          #error "Header 'netinet/tcp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/tcp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/tcp.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0ro9jacx/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/ioctl.h")
+          #error "Header 'sys/ioctl.h' could not be found"
+         #endif
+        #else
+         #include <sys/ioctl.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/ioctl.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmplaupgf3d/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/param.h")
+          #error "Header 'sys/param.h' could not be found"
+         #endif
+        #else
+         #include <sys/param.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/param.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8uoq0wt7/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/random.h")
+          #error "Header 'sys/random.h' could not be found"
+         #endif
+        #else
+         #include <sys/random.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/random.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxwxw6sy8/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/socket.h")
+          #error "Header 'sys/socket.h' could not be found"
+         #endif
+        #else
+         #include <sys/socket.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/socket.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp839heul9/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/stat.h")
+          #error "Header 'sys/stat.h' could not be found"
+         #endif
+        #else
+         #include <sys/stat.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/stat.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgsu7lk84/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("limits.h")
+          #error "Header 'limits.h' could not be found"
+         #endif
+        #else
+         #include <limits.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "limits.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzvrxb6gu/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/syslimits.h")
+          #error "Header 'sys/syslimits.h' could not be found"
+         #endif
+        #else
+         #include <sys/syslimits.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzvrxb6gu/testfile.c:4:12: error: #error "Header 'sys/syslimits.h' could not be found"
+    4 |           #error "Header 'sys/syslimits.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/syslimits.h" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmvpoj1oz/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/types.h")
+          #error "Header 'sys/types.h' could not be found"
+         #endif
+        #else
+         #include <sys/types.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/types.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp685hjb0k/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/wait.h")
+          #error "Header 'sys/wait.h' could not be found"
+         #endif
+        #else
+         #include <sys/wait.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/wait.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5jh8evf8/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/uio.h")
+          #error "Header 'sys/uio.h' could not be found"
+         #endif
+        #else
+         #include <sys/uio.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/uio.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpotfsnikx/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpotfsnikx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define arc4random meson_disable_define_of_arc4random
+        
+        #include <limits.h>
+        #undef arc4random
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char arc4random (void);
+        
+        #if defined __stub_arc4random || defined __stub___arc4random
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return arc4random ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /usr/bin/ld: /tmp/ccJGMLQg.o: in function `main':
+testfile.c:(.text+0x9): undefined reference to `arc4random'
+collect2: error: ld returned 1 exit status
+
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1_zx8t4_/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1_zx8t4_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        int main(void) {
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_arc4random)
+                #error "__builtin_arc4random not found"
+            #endif
+        #elif ! defined(arc4random)
+            /* Check for __builtin_arc4random only if no includes were added to the
+             * prefix above, which means no definition of arc4random can be found.
+             * We would always check for this, but we get false positives on
+             * MSYS2 if we do. Their toolchain is broken, but we can at least
+             * give them a workaround. */
+            #if 1
+                __builtin_arc4random;
+            #else
+                #error "No definition for __builtin_arc4random found in the prefix"
+            #endif
+        #endif
+        return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1_zx8t4_/testfile.c: In function 'main':
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1_zx8t4_/testfile.c:14:17: error: '__builtin_arc4random' undeclared (first use in this function); did you mean '__builtin_acos'?
+   14 |                 __builtin_arc4random;
+      |                 ^~~~~~~~~~~~~~~~~~~~
+      |                 __builtin_acos
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp1_zx8t4_/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "arc4random" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp71lta0kv/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp71lta0kv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define arc4random_buf meson_disable_define_of_arc4random_buf
+        
+        #include <limits.h>
+        #undef arc4random_buf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char arc4random_buf (void);
+        
+        #if defined __stub_arc4random_buf || defined __stub___arc4random_buf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return arc4random_buf ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /usr/bin/ld: /tmp/ccevf2DU.o: in function `main':
+testfile.c:(.text+0x9): undefined reference to `arc4random_buf'
+collect2: error: ld returned 1 exit status
+
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppzo4edm3/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppzo4edm3/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        int main(void) {
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_arc4random_buf)
+                #error "__builtin_arc4random_buf not found"
+            #endif
+        #elif ! defined(arc4random_buf)
+            /* Check for __builtin_arc4random_buf only if no includes were added to the
+             * prefix above, which means no definition of arc4random_buf can be found.
+             * We would always check for this, but we get false positives on
+             * MSYS2 if we do. Their toolchain is broken, but we can at least
+             * give them a workaround. */
+            #if 1
+                __builtin_arc4random_buf;
+            #else
+                #error "No definition for __builtin_arc4random_buf found in the prefix"
+            #endif
+        #endif
+        return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppzo4edm3/testfile.c: In function 'main':
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppzo4edm3/testfile.c:14:17: error: '__builtin_arc4random_buf' undeclared (first use in this function)
+   14 |                 __builtin_arc4random_buf;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppzo4edm3/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "arc4random_buf" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgiv0sd1l/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgiv0sd1l/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define getrandom meson_disable_define_of_getrandom
+        
+        #include <limits.h>
+        #undef getrandom
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getrandom (void);
+        
+        #if defined __stub_getrandom || defined __stub___getrandom
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getrandom ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getrandom" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp9etqilwu/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp9etqilwu/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define localtime_r meson_disable_define_of_localtime_r
+        
+        #include <limits.h>
+        #undef localtime_r
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char localtime_r (void);
+        
+        #if defined __stub_localtime_r || defined __stub___localtime_r
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return localtime_r ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "localtime_r" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmp2xflzt/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmp2xflzt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define getifaddrs meson_disable_define_of_getifaddrs
+        
+        #include <limits.h>
+        #undef getifaddrs
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getifaddrs (void);
+        
+        #if defined __stub_getifaddrs || defined __stub___getifaddrs
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getifaddrs ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getifaddrs" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl55z6bq9/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl55z6bq9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define getenv meson_disable_define_of_getenv
+        
+        #include <limits.h>
+        #undef getenv
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getenv (void);
+        
+        #if defined __stub_getenv || defined __stub___getenv
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getenv ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getenv" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwhakxmnk/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwhakxmnk/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define putenv meson_disable_define_of_putenv
+        
+        #include <limits.h>
+        #undef putenv
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char putenv (void);
+        
+        #if defined __stub_putenv || defined __stub___putenv
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return putenv ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "putenv" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzgroufkz/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpzgroufkz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define setenv meson_disable_define_of_setenv
+        
+        #include <limits.h>
+        #undef setenv
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char setenv (void);
+        
+        #if defined __stub_setenv || defined __stub___setenv
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return setenv ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "setenv" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmporno6zcz/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmporno6zcz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define unsetenv meson_disable_define_of_unsetenv
+        
+        #include <limits.h>
+        #undef unsetenv
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char unsetenv (void);
+        
+        #if defined __stub_unsetenv || defined __stub___unsetenv
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return unsetenv ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "unsetenv" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpj4g_gjq_/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpj4g_gjq_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define strerror_r meson_disable_define_of_strerror_r
+        
+        #include <limits.h>
+        #undef strerror_r
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strerror_r (void);
+        
+        #if defined __stub_strerror_r || defined __stub___strerror_r
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strerror_r ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "strerror_r" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0ksry4y4/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0ksry4y4/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define sigaction meson_disable_define_of_sigaction
+        
+        #include <limits.h>
+        #undef sigaction
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sigaction (void);
+        
+        #if defined __stub_sigaction || defined __stub___sigaction
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sigaction ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "sigaction" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2gfhoi0x/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2gfhoi0x/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define sigwait meson_disable_define_of_sigwait
+        
+        #include <limits.h>
+        #undef sigwait
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sigwait (void);
+        
+        #if defined __stub_sigwait || defined __stub___sigwait
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sigwait ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "sigwait" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp9wp30dlm/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp9wp30dlm/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define sigsuspend meson_disable_define_of_sigsuspend
+        
+        #include <limits.h>
+        #undef sigsuspend
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sigsuspend (void);
+        
+        #if defined __stub_sigsuspend || defined __stub___sigsuspend
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sigsuspend ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "sigsuspend" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu0lsqunt/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu0lsqunt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define eventfd meson_disable_define_of_eventfd
+        
+        #include <limits.h>
+        #undef eventfd
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char eventfd (void);
+        
+        #if defined __stub_eventfd || defined __stub___eventfd
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return eventfd ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "eventfd" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpq8njgk5v/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpq8njgk5v/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define kqueue meson_disable_define_of_kqueue
+        
+        #include <limits.h>
+        #undef kqueue
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char kqueue (void);
+        
+        #if defined __stub_kqueue || defined __stub___kqueue
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return kqueue ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /usr/bin/ld: /tmp/cciAqlL2.o: in function `main':
+testfile.c:(.text+0x9): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpb8cduh4s/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpb8cduh4s/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        int main(void) {
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_kqueue)
+                #error "__builtin_kqueue not found"
+            #endif
+        #elif ! defined(kqueue)
+            /* Check for __builtin_kqueue only if no includes were added to the
+             * prefix above, which means no definition of kqueue can be found.
+             * We would always check for this, but we get false positives on
+             * MSYS2 if we do. Their toolchain is broken, but we can at least
+             * give them a workaround. */
+            #if 1
+                __builtin_kqueue;
+            #else
+                #error "No definition for __builtin_kqueue found in the prefix"
+            #endif
+        #endif
+        return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpb8cduh4s/testfile.c: In function 'main':
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpb8cduh4s/testfile.c:14:17: error: '__builtin_kqueue' undeclared (first use in this function); did you mean '__builtin_free'?
+   14 |                 __builtin_kqueue;
+      |                 ^~~~~~~~~~~~~~~~
+      |                 __builtin_free
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpb8cduh4s/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "kqueue" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8c22djc6/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8c22djc6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define epoll_ctl meson_disable_define_of_epoll_ctl
+        
+        #include <limits.h>
+        #undef epoll_ctl
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char epoll_ctl (void);
+        
+        #if defined __stub_epoll_ctl || defined __stub___epoll_ctl
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return epoll_ctl ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "epoll_ctl" : YES (cached)
+Dependency threads found: YES unknown (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpldrfujbz/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpldrfujbz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_barrier_wait
+                pthread_barrier_wait;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Header <pthread.h> has symbol "pthread_barrier_wait" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmks111tk/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmks111tk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #include <signal.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef sys_siglist
+                sys_siglist;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Header <signal.h> has symbol "sys_siglist" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp3o65hgyw/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp3o65hgyw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ #define _GNU_SOURCE
+                      #include <string.h>
+                      int func (void) {
+                          char error_string[256];
+                          char *ptr = strerror_r (-2, error_string, 256);
+                          char c = *strerror_r (-2, error_string, 256);
+                          return c != 0 && ptr != (void*) 0L;
+                      }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "strerror_r() returns char *" compiles: YES (cached)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp379mx7qq
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp379mx7qq/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp379mx7qq/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lexecinfo -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lexecinfo
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8e3gahnp
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8e3gahnp/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8e3gahnp/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpswgo0wrn
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpswgo0wrn/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpswgo0wrn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library execinfo found: NO
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpz2m9xt8k/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpz2m9xt8k/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ #include <execinfo.h>
+#include <limits.h>
+
+        #if defined __stub_backtrace || defined __stub___backtrace
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &backtrace;
+            long b = (long) a;
+            return (int) b;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "backtrace" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2becopgd/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2becopgd/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+    #include <time.h>
+    struct timespec t;
+    int main (int argc, char ** argv) {
+        return clock_gettime(CLOCK_REALTIME, &t);
+    }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "clock_gettime()" links: YES (cached)
+Running command: /usr/bin/[ -c /dev/urandom ]
+--- stdout ---
+
+--- stderr ---
+
+
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7f4vh6dd/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7f4vh6dd/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ #include <sys/eventfd.h>
+               #include <unistd.h>
+               int main (int argc, char ** argv) {
+                   eventfd (0, EFD_CLOEXEC);
+                   return 0;
+               }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "eventfd(2) system call" links: YES (cached)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5xy8pu66
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5xy8pu66/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5xy8pu66/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsocket -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+
+Library socket found: NO
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp56_4lqkq/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp56_4lqkq/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ #include <sys/types.h>
+                     #include <sys/socket.h>
+                     int main (int argc, char ** argv) {
+                         return socket(1, 2, 3);
+                     }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "socket()" links: YES (cached)
+Configuring core-config-private.h using configuration
+Configuring core-config.h using configuration
+Dependency talloc found: YES 2.3.1 (cached)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphpnt5xok
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphpnt5xok/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmphpnt5xok/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-negative-value -Wshift-negative-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-shift-negative-value -Wshift-negative-value: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpi8yh7o_z
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpi8yh7o_z/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpi8yh7o_z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl6yzm4j8
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl6yzm4j8/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl6yzm4j8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unknown-warning-option -Wunknown-warning-option 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wunknown-warning-option'
+
+Compiler for C supports arguments -Wno-unknown-warning-option -Wunknown-warning-option: NO 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppx5rku8j
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppx5rku8j/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppx5rku8j/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnv0f2is3
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnv0f2is3/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpnv0f2is3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyhn47p08
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyhn47p08/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyhn47p08/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpjw357khu
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpjw357khu/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpjw357khu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-redundant-decls -Wredundant-decls 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-redundant-decls -Wredundant-decls: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf605lszt
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf605lszt/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf605lszt/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-overflow -Wshift-overflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-shift-overflow -Wshift-overflow: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_zbzcgsp
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_zbzcgsp/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_zbzcgsp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-float-equal -Wfloat-equal: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsm3j5h8s
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsm3j5h8s/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsm3j5h8s/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-implicit-fallthrough -Wimplicit-fallthrough: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflzwpvkc
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflzwpvkc/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpflzwpvkc/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types-discards-qualifiers -Wincompatible-pointer-types-discards-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wincompatible-pointer-types-discards-qualifiers'
+
+Compiler for C supports arguments -Wno-incompatible-pointer-types-discards-qualifiers -Wincompatible-pointer-types-discards-qualifiers: NO 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpe04klqio
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpe04klqio/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpe04klqio/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsnuntaz7
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsnuntaz7/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpsnuntaz7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cpp -Wcpp 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cpp -Wcpp: YES 
+Dependency yaml-0.1 found: YES 0.2.2 (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxngsvtvj/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/sctp.h")
+          #error "Header 'netinet/sctp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/sctp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/sctp.h" : YES (cached)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpr2_g47bb
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpr2_g47bb/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpr2_g47bb/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsctp -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library sctp found: YES
+Configuring sctp-config.h using configuration
+Dependency libmongoc-1.0 found: YES 1.16.1 (cached)
+
+Executing subproject freeDiameter method meson 
+
+Project name: freediameter
+Project version: 1.5.0
+C compiler for the build machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc ld.bfd 2.34
+C compiler for the host machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc ld.bfd 2.34
+Program flex found: YES (/usr/bin/flex)
+Program bison found: YES (/usr/bin/bison)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpob1sebd5
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpob1sebd5/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpob1sebd5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyvkxmojg
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyvkxmojg/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpyvkxmojg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu5m6xk6s
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu5m6xk6s/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu5m6xk6s/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcj_kib29
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcj_kib29/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpcj_kib29/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-maybe-uninitialized -Wmaybe-uninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-maybe-uninitialized -Wmaybe-uninitialized: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp4gvn56a7
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp4gvn56a7/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp4gvn56a7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvmuxwzvl
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvmuxwzvl/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvmuxwzvl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-stringop-truncation -Wstringop-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-stringop-truncation -Wstringop-truncation: YES 
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpkkjwdaq0/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("malloc.h")
+          #error "Header 'malloc.h' could not be found"
+         #endif
+        #else
+         #include <malloc.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "malloc.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpic6_jd6x/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("signalent.h")
+          #error "Header 'signalent.h' could not be found"
+         #endif
+        #else
+         #include <signalent.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpic6_jd6x/testfile.c:4:12: error: #error "Header 'signalent.h' could not be found"
+    4 |           #error "Header 'signalent.h' could not be found"
+      |            ^~~~~
+
+Has header "signalent.h" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxrs4y3zh/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxrs4y3zh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define strndup meson_disable_define_of_strndup
+        
+        #include <limits.h>
+        #undef strndup
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strndup (void);
+        
+        #if defined __stub_strndup || defined __stub___strndup
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strndup ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxrs4y3zh/testfile.c:10:14: warning: conflicting types for built-in function 'strndup'; expected 'char *(const char *, long unsigned int)' [-Wbuiltin-declaration-mismatch]
+   10 |         char strndup (void);
+      |              ^~~~~~~
+
+Checking for function "strndup" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp70f0l1bi/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp70f0l1bi/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define getopt_long meson_disable_define_of_getopt_long
+        
+        #include <limits.h>
+        #undef getopt_long
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getopt_long (void);
+        
+        #if defined __stub_getopt_long || defined __stub___getopt_long
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getopt_long ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getopt_long" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmp2xflzt/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmp2xflzt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #define getifaddrs meson_disable_define_of_getifaddrs
+        
+        #include <limits.h>
+        #undef getifaddrs
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getifaddrs (void);
+        
+        #if defined __stub_getifaddrs || defined __stub___getifaddrs
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getifaddrs ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getifaddrs" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfccqa3z7/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfccqa3z7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #include <netinet/in.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef ntohll
+                ntohll;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfccqa3z7/testfile.c: In function 'main':
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfccqa3z7/testfile.c:6:17: error: 'ntohll' undeclared (first use in this function); did you mean 'ntohl'?
+    6 |                 ntohll;
+      |                 ^~~~~~
+      |                 ntohl
+/home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfccqa3z7/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Header <netinet/in.h> has symbol "ntohll" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpawo31a8p/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpawo31a8p/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #include <netdb.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef AI_ADDRCONFIG
+                AI_ADDRCONFIG;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Header <netdb.h> has symbol "AI_ADDRCONFIG" : YES (cached)
+Dependency threads found: YES unknown (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpldrfujbz/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpldrfujbz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_barrier_wait
+                pthread_barrier_wait;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Header <pthread.h> has symbol "pthread_barrier_wait" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2becopgd/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2becopgd/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+    #include <time.h>
+    struct timespec t;
+    int main (int argc, char ** argv) {
+        return clock_gettime(CLOCK_REALTIME, &t);
+    }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "clock_gettime()" links: YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbrex8ldx/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbrex8ldx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ 
+    #include <dlfcn.h>
+    int underscore_test (void) { return 42; }
+    int main (int argc, char ** argv) {
+        void *f1 = (void*)0, *f2 = (void*)0, *handle;
+        handle = dlopen ((void*)0, 0);
+        if (handle) {
+            f1 = dlsym (handle, "underscore_test");
+            f2 = dlsym (handle, "_underscore_test");
+        }
+        return (!f2 || f1);
+    }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /usr/bin/ld: /tmp/ccEZBMXT.o: in function `main':
+testfile.c:(.text+0x3d): undefined reference to `dlopen'
+/usr/bin/ld: testfile.c:(.text+0x5b): undefined reference to `dlsym'
+/usr/bin/ld: testfile.c:(.text+0x72): undefined reference to `dlsym'
+collect2: error: ld returned 1 exit status
+
+Checking if "dlopen() and dlsym() in system libraries" links: NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgbnmhyde/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgbnmhyde/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 -Wl,--start-group -ldl -Wl,--end-group 
+
+Code:
+ 
+    #include <dlfcn.h>
+    int underscore_test (void) { return 42; }
+    int main (int argc, char ** argv) {
+        void *f1 = (void*)0, *f2 = (void*)0, *handle;
+        handle = dlopen ((void*)0, 0);
+        if (handle) {
+            f1 = dlsym (handle, "underscore_test");
+            f2 = dlsym (handle, "_underscore_test");
+        }
+        return (!f2 || f1);
+    }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "dlopen() and dlsym() in libdl" links: YES (cached)
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8psjhxi5
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8psjhxi5/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8psjhxi5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2hmo6bsv
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2hmo6bsv/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp2hmo6bsv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgcrypt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library gcrypt found: YES
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprojocd3o
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprojocd3o/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprojocd3o/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lidn -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library idn found: YES
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmph3rxlpx2
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmph3rxlpx2/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmph3rxlpx2/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgnutls -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library gnutls found: YES
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpeuj07d5p/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpeuj07d5p/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 -Wl,--start-group -lgnutls -Wl,--end-group 
+
+Code:
+ 
+        #define gnutls_hash meson_disable_define_of_gnutls_hash
+        
+        #include <limits.h>
+        #undef gnutls_hash
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gnutls_hash (void);
+        
+        #if defined __stub_gnutls_hash || defined __stub___gnutls_hash
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gnutls_hash ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "gnutls_hash" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp6vbxwxhy/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp6vbxwxhy/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 -Wl,--start-group -lgnutls -Wl,--end-group 
+
+Code:
+ 
+        #define gnutls_transport_set_vec_push_function meson_disable_define_of_gnutls_transport_set_vec_push_function
+        
+        #include <limits.h>
+        #undef gnutls_transport_set_vec_push_function
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gnutls_transport_set_vec_push_function (void);
+        
+        #if defined __stub_gnutls_transport_set_vec_push_function || defined __stub___gnutls_transport_set_vec_push_function
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gnutls_transport_set_vec_push_function ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "gnutls_transport_set_vec_push_function" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfyqfu9hy/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpfyqfu9hy/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 -Wl,--start-group -lgnutls -Wl,--end-group 
+
+Code:
+ 
+        #define gnutls_x509_trust_list_verify_crt meson_disable_define_of_gnutls_x509_trust_list_verify_crt
+        
+        #include <limits.h>
+        #undef gnutls_x509_trust_list_verify_crt
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gnutls_x509_trust_list_verify_crt (void);
+        
+        #if defined __stub_gnutls_x509_trust_list_verify_crt || defined __stub___gnutls_x509_trust_list_verify_crt
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gnutls_x509_trust_list_verify_crt ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "gnutls_x509_trust_list_verify_crt" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpytvxtakk/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpytvxtakk/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 -Wl,--start-group -lgnutls -Wl,--end-group 
+
+Code:
+ 
+        #define gnutls_handshake_set_timeout meson_disable_define_of_gnutls_handshake_set_timeout
+        
+        #include <limits.h>
+        #undef gnutls_handshake_set_timeout
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gnutls_handshake_set_timeout (void);
+        
+        #if defined __stub_gnutls_handshake_set_timeout || defined __stub___gnutls_handshake_set_timeout
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gnutls_handshake_set_timeout ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "gnutls_handshake_set_timeout" : YES (cached)
+Library sctp found: YES
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu0vff_t7/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu0vff_t7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89 
+
+Code:
+ #include <unistd.h>
+                      #include <netinet/sctp.h>
+                      int main (int argc, char ** argv) {
+                          sctp_connectx(0, NULL, 0, NULL);
+                      }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking if "sctp_connectx() accepts 4 arguments" compiles: YES (cached)
+Configuring freeDiameter-host.h using configuration
+Configuring version.h using configuration
+Build targets in project: 19
+Subproject freeDiameter finished.
+
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptd82hgk8
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptd82hgk8/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptd82hgk8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8h4kcugo
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8h4kcugo/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp8h4kcugo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprf_a8j8w
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprf_a8j8w/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprf_a8j8w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp63r6gtu0
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp63r6gtu0/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp63r6gtu0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-incompatible-pointer-types -Wincompatible-pointer-types: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpp7k2vpo4
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpp7k2vpo4/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpp7k2vpo4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpm3ca4y6r
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpm3ca4y6r/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpm3ca4y6r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -w 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -w: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpng_7_5vd
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpng_7_5vd/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpng_7_5vd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -std=gnu99: YES 
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_alss348/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip.h")
+          #error "Header 'netinet/ip.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmjockrj3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip6.h")
+          #error "Header 'netinet/ip6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip6.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip6.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpf05jptc5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/udp.h")
+          #error "Header 'netinet/udp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/udp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/udp.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp7lz75687/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/tcp.h")
+          #error "Header 'netinet/tcp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/tcp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/tcp.h" : YES (cached)
+Configuring pfcp-config.h using configuration
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5sl94p74
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5sl94p74/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5sl94p74/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpooexvnvy
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpooexvnvy/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpooexvnvy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3uxq7mo
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3uxq7mo/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpl3uxq7mo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgoblv5or
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgoblv5or/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpgoblv5or/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpze_nltfx
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpze_nltfx/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpze_nltfx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-label -Wunused-label 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-label -Wunused-label: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpoa5pn_5d
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpoa5pn_5d/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpoa5pn_5d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-float-equal -Wfloat-equal: YES 
+Library gnutls found: YES
+Dependency libnghttp2 found: YES 1.40.0 (cached)
+Dependency libmicrohttpd found: YES 0.9.66 (cached)
+Dependency libcurl found: YES 7.68.0 (cached)
+Library libbearssl found: YES
+Running command: /usr/bin/git describe --abbrev=7 --dirty=+
+--- stdout ---
+v2.5.6-28-gdae8023+
+
+--- stderr ---
+
+
+Configuring version.h using configuration
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp5oqh80zx/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("ifaddrs.h")
+          #error "Header 'ifaddrs.h' could not be found"
+         #endif
+        #else
+         #include <ifaddrs.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "ifaddrs.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpbrsxowk_/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("net/ethernet.h")
+          #error "Header 'net/ethernet.h' could not be found"
+         #endif
+        #else
+         #include <net/ethernet.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "net/ethernet.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpezm7v2bo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("net/if.h")
+          #error "Header 'net/if.h' could not be found"
+         #endif
+        #else
+         #include <net/if.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "net/if.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpqg1aaay3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("net/if_dl.h")
+          #error "Header 'net/if_dl.h' could not be found"
+         #endif
+        #else
+         #include <net/if_dl.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpqg1aaay3/testfile.c:4:12: error: #error "Header 'net/if_dl.h' could not be found"
+    4 |           #error "Header 'net/if_dl.h' could not be found"
+      |            ^~~~~
+
+Has header "net/if_dl.h" : NO (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpu7r2j4m_/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/in.h")
+          #error "Header 'netinet/in.h' could not be found"
+         #endif
+        #else
+         #include <netinet/in.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/in.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_alss348/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip.h")
+          #error "Header 'netinet/ip.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmjockrj3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip6.h")
+          #error "Header 'netinet/ip6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip6.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip6.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptr9rzyk5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip_icmp.h")
+          #error "Header 'netinet/ip_icmp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip_icmp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip_icmp.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmph9etl65x/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/icmp6.h")
+          #error "Header 'netinet/icmp6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/icmp6.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/icmp6.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0ro9jacx/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/ioctl.h")
+          #error "Header 'sys/ioctl.h' could not be found"
+         #endif
+        #else
+         #include <sys/ioctl.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/ioctl.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpxwxw6sy8/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/socket.h")
+          #error "Header 'sys/socket.h' could not be found"
+         #endif
+        #else
+         #include <sys/socket.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/socket.h" : YES (cached)
+Configuring upf-config.h using configuration
+Dependency libtins found: YES 4.0 (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpezm7v2bo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("net/if.h")
+          #error "Header 'net/if.h' could not be found"
+         #endif
+        #else
+         #include <net/if.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "net/if.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp_alss348/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip.h")
+          #error "Header 'netinet/ip.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpmjockrj3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip6.h")
+          #error "Header 'netinet/ip6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip6.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip6.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmptr9rzyk5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip_icmp.h")
+          #error "Header 'netinet/ip_icmp.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip_icmp.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/ip_icmp.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmph9etl65x/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/icmp6.h")
+          #error "Header 'netinet/icmp6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/icmp6.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "netinet/icmp6.h" : YES (cached)
+Configuring smf-config.h using configuration
+Configuring open5gs-dbctl using configuration
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvfownmp9
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvfownmp9/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpvfownmp9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0158dyov
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0158dyov/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp0158dyov/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppnzkimn_
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppnzkimn_/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmppnzkimn_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpg1986ydx
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpg1986ydx/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpg1986ydx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-incompatible-pointer-types -Wincompatible-pointer-types: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwltapu_v
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwltapu_v/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmpwltapu_v/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp40rpyfqy
+Command line:  cc /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp40rpyfqy/testfile.c -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmp40rpyfqy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-deprecated-declarations -Wdeprecated-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-deprecated-declarations -Wdeprecated-declarations: YES 
+Adding test "core"
+Adding test "crypt"
+Adding test "sctp"
+Adding test "unit"
+Configuring test-config-private.h using configuration
+Adding test "registration"
+Adding test "vonr"
+Adding test "slice"
+Adding test "attach"
+Adding test "volte"
+Adding test "csfb"
+Adding test "310014"
+Adding test "handover"
+Adding test "non3gpp"
+Message: 
+        prefix:                       /home/julius/dev/5g-wiki/open5gs/install
+        libdir:                       /home/julius/dev/5g-wiki/open5gs/install/lib/x86_64-linux-gnu
+        bindir:                       /home/julius/dev/5g-wiki/open5gs/install/bin
+        sysconfdir:                   /home/julius/dev/5g-wiki/open5gs/install/etc
+        localstatedir:                /home/julius/dev/5g-wiki/open5gs/install/var
+        source code location:         /home/julius/dev/5g-wiki/open5gs
+        compiler:                     gcc
+        debugging support:            debug
+
+Build targets in project: 95
+
+open5gs 2.5.6
+
+  Subprojects
+    freeDiameter: YES
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprszb360r
+Command line:  c++ /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprszb360r/testfile.cpp -o /home/julius/dev/5g-wiki/open5gs/build/meson-private/tmprszb360r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

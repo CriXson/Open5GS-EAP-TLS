@@ -1,0 +1,23 @@
+diff --git a/webui/server/index.js b/webui/server/index.js
+index e16098a7..85b853f7 100644
+--- a/webui/server/index.js
++++ b/webui/server/index.js
+@@ -43,6 +43,8 @@ co(function* () {
+       throw err;
+     }
+ 
++    console.log("USER-COUNT: ",count)
++
+     if (!count) {
+       const newAccount = new Account();
+       newAccount.username = 'admin';
+@@ -50,7 +52,7 @@ co(function* () {
+       Account.register(newAccount, '1423', err => {
+         if (err) {
+           console.error(err);
+-          throw err;
++          //DONT THROW ERROR! throw err;
+         }
+       })
+     }
+
