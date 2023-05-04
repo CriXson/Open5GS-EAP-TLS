@@ -186,8 +186,12 @@ bool ausf_nausf_auth_handle_authentication_eap_session(ausf_ue_t *ausf_ue,
         return false;
     }
     //TODO check if correct ID or if ID is too old(replay attack)
-    ogs_info("Expected EAP ID: %d Received EAP ID: %d", get_NextID()-1, payload.id);
-    if(get_NextID()-1 != payload.id){
+    uint8_t currentID = get_NextID()
+    if(currentID !0) {
+        currentID--;
+    }
+    ogs_info("Expected EAP ID: %d Received EAP ID: %d", currentID, payload.id);
+    if(currentID != payload.id){
         ogs_assert(true ==
                 ogs_sbi_server_send_error(stream,
                     OGS_SBI_HTTP_STATUS_INTERNAL_SERVER_ERROR,
