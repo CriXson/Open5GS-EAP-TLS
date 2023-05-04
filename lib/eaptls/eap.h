@@ -55,7 +55,7 @@ uint8_t length_fragment_flag(void);
 uint8_t length_flag(void);
 uint8_t fragment_flag(void);
 
-int get_NextID(void);
+uint8_t get_NextID(void);
 
 
 
