@@ -436,7 +436,8 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
     }else {
         //if buffered messages still there we expect an ACK coming as a EAP-RESPONSE messages with no data
         if(payload->data) {
-                return -1;
+            ogs_error("Expected an ACK");
+            return -1;
         }
     }
     memset(payload_ret, 0, sizeof(payload_ret));
