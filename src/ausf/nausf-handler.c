@@ -189,6 +189,8 @@ bool ausf_nausf_auth_handle_authentication_eap_session(ausf_ue_t *ausf_ue,
     uint8_t currentID = get_NextID();
     if(currentID != 0) {
         currentID--;
+    } else {
+        currentID = 255;
     }
     ogs_info("Expected EAP ID: %d Received EAP ID: %d", currentID, payload.id);
     if(currentID != payload.id){
