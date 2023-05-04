@@ -149,7 +149,7 @@ uint8_t fragment_flag()
     return 64;
 }
 
-int get_NextID()
+uint8_t get_NextID()
 {
     return nextID;
 }
