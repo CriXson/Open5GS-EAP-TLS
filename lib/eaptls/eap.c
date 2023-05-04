@@ -4,7 +4,7 @@
 
 const uint16_t EAP_TLS_MIN_LENGTH = 6;
 const uint8_t EAP_TYPE_TLS = 13;
-int nextID = 100;
+uint8_t nextID = 200;
 
 void packet2stringHex(uint8_t *eap_raw, eap_packet_t *pkt, size_t tls_len)
 {
