@@ -81,7 +81,17 @@ bool udr_nudr_dr_handle_subscription_authentication(
 
             ogs_info("----------------------------------------------------- \n supi : [%s] \n -----------------------------------------------------", supi);
             //TODO imsi range for selection
-            if(strcmp(supi, "imsi-001010000001001") == 0) {
+            char *imsi[4] = {"imsi-001010000001001", "imsi-001010000101001", "imsi-001010010101001", "imsi-001011010101001"};
+            int x = 0;
+            int i=0;
+            for (;i<4;i++) 
+            {
+                if(strcmp(supi, imsi[i]) == 0) {
+                    x = 1;
+                    break;
+                } 
+            }
+            if(x == 1) {
                 AuthenticationSubscription.authentication_method =
                 OpenAPI_auth_method_EAP_TLS;
             } else {
