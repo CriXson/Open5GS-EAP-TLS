@@ -85,7 +85,8 @@ bool udr_nudr_dr_handle_subscription_authentication(
              "imsi-001011110101001", "imsi-001010000111001", "imsi-001010010111001", "imsi-001010011111001", "imsi-001011011111001", "imsi-001011001111001"};
             int x = 0;
             int i=0;
-            for (;i<4;i++) 
+            size_t n = sizeof(imsi)/sizeof(imsi[0]);
+            for (;i<n;i++) 
             {
                 if(strcmp(supi, imsi[i]) == 0) {
                     x = 1;
