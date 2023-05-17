@@ -84,6 +84,7 @@ bool udr_nudr_dr_handle_subscription_authentication(
             char *imsi[10] = {"imsi-001010000001001", "imsi-001010000101001", "imsi-001010010101001", "imsi-001011010101001",
              "imsi-001011110101001", "imsi-001010000111001", "imsi-001010010111001", "imsi-001010011111001", "imsi-001011011111001", "imsi-001011001111001"};
             int x = 0;
+            
             int i=0;
             size_t n = sizeof(imsi)/sizeof(imsi[0]);
             for (;i<n;i++) 
