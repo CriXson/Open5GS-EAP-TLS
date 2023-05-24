@@ -5,7 +5,7 @@
 ./install/bin/open5gs-amfd -d -t &
 ./install/bin/open5gs-smfd & 
 ./install/bin/open5gs-upfd & 
-#./install/bin/open5gs-ausfd -d& 
+./install/bin/open5gs-ausfd -d& 
 ./install/bin/open5gs-udmd -d & 
 ./install/bin/open5gs-pcfd & 
 ./install/bin/open5gs-nssfd & 
