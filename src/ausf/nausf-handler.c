@@ -584,6 +584,10 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
 }
 
 int fitFragmentsInOne(ausf_ue_t *ausf_ue) {
+    //if last fragment just return 0
+    if(ausf_ue->tls_server->fragment_counter - ausf_ue->tls_server->next_message == 1) {
+        return 0;
+    }
     if (ausf_ue->tls_server->total_messages_len < (OGS_NAS_MAX_EAP_MESSGE_LEN-8)) {
         return 1;
     }

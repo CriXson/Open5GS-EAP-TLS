@@ -1,13 +1,13 @@
 #include "inc/bearssl.h"
 #include "eap.h"
-//#include "chain-rsa.h"
-//#include "key-rsa.h"
-//#define SKEY   RSA
-//#include "trust-anchors.h"
-#include "chain-localhost-root-ec.h"
-#include "key-localhost-root-ec.h"
-#define SKEY   EC
-#include "trust-anchors-ec.h"
+#include "chain-rsa.h"
+#include "key-rsa.h"
+#define SKEY   RSA
+#include "trust-anchors.h"
+//#include "chain-localhost-root-ec.h"
+//#include "key-localhost-root-ec.h"
+//#define SKEY   EC
+//#include "trust-anchors-ec.h"
 
 #define OGS_SERVER_RANDOM_LEN                32
 #define OGS_NAS_MAX_EAP_MESSGE_LEN           1503
