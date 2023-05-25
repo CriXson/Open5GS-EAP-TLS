@@ -451,15 +451,17 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
     //this if is outside of the else above because otherwise the first fragment would not be sent. As the fragments 
     //come from the for in clause above
     if (ausf_ue->tls_server->eap_messages_buffered == 1){
-        if ( ausf_ue->tls_server->total_messages_len < (OGS_NAS_MAX_EAP_MESSGE_LEN-8)) {//
+        if (fitFragmentsInOne(ausf_ue) == 1) {
             char *data = ogs_malloc(ausf_ue->tls_server->total_messages_len);
-            int i= 0;
-            for(;i < ausf_ue->tls_server->fragment_counter;i++){
-                char *p = data;
+            int i = 0;
+            char *p = data;
+            for(;ausf_ue->tls_server->next_message < ausf_ue->tls_server->fragment_counter;ausf_ue->tls_server->next_message++){
                 if(i!=0){
-                    p = p+ausf_ue->tls_server->messages_len[i-1];
+                    p = p+ausf_ue->tls_server->messages_len[ausf_ue->tls_server->next_message-1];
                 }
-                memcpy(p, ausf_ue->tls_server->buffer[i], ausf_ue->tls_server->messages_len[i]);
+                memcpy(p, ausf_ue->tls_server->buffer[ausf_ue->tls_server->next_message], 
+                    ausf_ue->tls_server->messages_len[ausf_ue->tls_server->next_message]);
+                i++;
                 //ogs_free(&ausf_ue->tls_server->buffer[i]);
             }
             ausf_ue->auth_result = OpenAPI_auth_result_AUTHENTICATION_ONGOING;
@@ -470,9 +472,7 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
             ausf_ue->tls_server->total_messages_len = 0;
             ogs_trace("  MESSAGE sent int request packet - ");
             ogs_log_hexdump(OGS_LOG_TRACE, data, ausf_ue->tls_server->total_messages_len);
-            return 1;
-        }
-        if(ausf_ue->tls_server->next_message  == 0){
+        } else if(ausf_ue->tls_server->next_message  == 0){
             // first fragment. Length and Fragment Flag set
             flags = length_fragment_flag();
             create_request_packet(payload_ret, flags, ausf_ue->tls_server->buffer[ausf_ue->tls_server->next_message], 
@@ -481,6 +481,7 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
             ogs_trace("  MESSAGE sent int request packet - ");
             ogs_log_hexdump(OGS_LOG_TRACE, ausf_ue->tls_server->buffer[ausf_ue->tls_server->next_message], 
             ausf_ue->tls_server->messages_len[ausf_ue->tls_server->next_message]);
+            ausf_ue->tls_server->next_message++;
         } else if ( ausf_ue->tls_server->next_message == ausf_ue->tls_server->fragment_counter-1){ 
             // fragment counter - 1 because next_message starts at 0 and fragment_counter at 1
             //Last fragment. no flags set
@@ -491,6 +492,7 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
             ogs_trace("  MESSAGE sent int request packet - ");
             ogs_log_hexdump(OGS_LOG_TRACE, ausf_ue->tls_server->buffer[ausf_ue->tls_server->next_message], 
             ausf_ue->tls_server->messages_len[ausf_ue->tls_server->next_message]);
+            ausf_ue->tls_server->next_message++;
         }else {
             // all fragments between first and last. Fragment flag set
             flags = fragment_flag();
@@ -500,9 +502,10 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
             ogs_trace("  MESSAGE sent int request packet - ");
             ogs_log_hexdump(OGS_LOG_TRACE, ausf_ue->tls_server->buffer[ausf_ue->tls_server->next_message], 
             ausf_ue->tls_server->messages_len[ausf_ue->tls_server->next_message]);
+            ausf_ue->tls_server->next_message++;
         }
         //index for next fragment increment
-        ausf_ue->tls_server->next_message++;
+        
         //If last fragment was just put into a packet then reset the buffer settings
         if(ausf_ue->tls_server->next_message == ausf_ue->tls_server->fragment_counter){
             ausf_ue->tls_server->eap_messages_buffered = 0;
@@ -578,4 +581,20 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
     ogs_log_hexdump(OGS_LOG_TRACE, ausf_ue->tls_server->buffer[0], 
     ausf_ue->tls_server->messages_len[0]);
     return 1;
+}
+
+int fitFragmentsInOne(ausf_ue_t *ausf_ue) {
+    if (ausf_ue->tls_server->total_messages_len < (OGS_NAS_MAX_EAP_MESSGE_LEN-8)) {
+        return 1;
+    }
+
+    int i= ausf_ue->tls_server->next_message;
+    int length = 0;
+    for(;i < ausf_ue->tls_server->fragment_counter;i++){
+        length += ausf_ue->tls_server->messages_len[i];
+    }
+    if (length < (OGS_NAS_MAX_EAP_MESSGE_LEN-8)) {
+        return 1;
+    }
+    return 0;
 }

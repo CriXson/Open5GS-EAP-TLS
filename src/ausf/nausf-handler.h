@@ -37,6 +37,8 @@ bool ausf_nausf_auth_handle_authentication_eap_session(ausf_ue_t *ausf_ue,
 int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
         ausf_ue_t *ausf_ue, int tls_rec_len, ogs_sbi_stream_t *stream);
 
+int fitFragmentsInOne(ausf_ue_t *ausf_ue);
+
 #ifdef __cplusplus
 }
 #endif
