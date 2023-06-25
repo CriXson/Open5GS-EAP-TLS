@@ -5,7 +5,7 @@
 void init_tls_server(tls_server_wrapper_t *server)
 {
     
-    br_ssl_server_init_full_rsa(&(server->sc), CHAIN, CHAIN_LEN, &SKEY);
+    br_ssl_server_init_minr2g(&(server->sc), CHAIN, CHAIN_LEN, &SKEY);
 	//br_ssl_server_init_full_ec(&(server->sc), CHAIN, CHAIN_LEN,
 	//		BR_KEYTYPE_EC, &SKEY);
     br_ssl_engine_set_buffers_bidi(&(server->sc.eng), server->ibuf, sizeof server->ibuf, server->obuf, sizeof server->obuf);
