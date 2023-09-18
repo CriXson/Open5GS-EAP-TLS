@@ -6,7 +6,7 @@ To be able to run this on your machine follow the [Build from Source Manual] (ht
 Just use this repository instead of the open5GS one.
 
 ## Test with Client
-If you want to test the core with EAP-TLS then use the [N3IWF] () and the [UE] ().
+If you want to test the core with EAP-TLS then use the [N3IWF] (test) and the [UE] (test).
 
 
 ## License
