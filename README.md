@@ -1,6 +1,6 @@
 ## Open5GS with EAP-TLS
 
-For my master's thesis, I successfully integrated the EAP-TLS authentication mechanism into the Open5GS core.
+For my master's thesis, I successfully integrated the EAP-TLS authentication mechanism into the Open5GS core. This prototype serves as a demonstration of the feasibility of utilizing EAP-TLS as an authentication mechanism within the 5G core.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ To set up this on your machine, please refer to the [Build from Source Manual](h
 To perform EAP-TLS testing on the core, utilize the [N3IWF](https://github.com/CriXson/N3IWF-for-Open5GS) and the [UE](https://github.com/CriXson/non3GPP-access) repositories I configured for this use case. EAP-TLS was only tested via non-3GPP-access.
 
 ## Identifiers for the UE used
-
+used
 Despite the communication being conducted through non-3GPP access, the IMSI format is used instead of the NAI format, as NAI was not supported by Open5GS at that time. The file "imsis" contains the list of configured IMSIs, and while you can add new ones to the database, it's important to note that EAP-TLS authentication is hardcoded to specific IMSIs and cannot be used with newly added ones at this time.
 
 
