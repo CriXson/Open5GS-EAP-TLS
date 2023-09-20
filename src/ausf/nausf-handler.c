@@ -550,7 +550,7 @@ int write_and_read_tls_server(eap_packet_t *payload, eap_packet_t *payload_ret, 
         ogs_trace("  EMSK ------- - ");
         ogs_log_hexdump(OGS_LOG_TRACE, out,128);
         memcpy(ausf_ue->kausf, out, 64);
-        //and now I coould calc kseaf here
+        //and now I can calc kseaf here
         ogs_kdf_kseaf(ausf_ue->serving_network_name, ausf_ue->kausf, ausf_ue->kseaf);
         //
         ausf_ue->auth_result = OpenAPI_auth_result_AUTHENTICATION_SUCCESS;
